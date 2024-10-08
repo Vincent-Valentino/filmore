@@ -171,7 +171,7 @@ const Home: NextPage = () => {
                     transition={{ duration: 0.5 }}
                     viewport={{ once: true }}
                   >
-                    Discover Filmore's Hidden Gems
+                    Discover Filmore&apos;s Hidden Gems
                   </motion.h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <motion.div
@@ -182,7 +182,7 @@ const Home: NextPage = () => {
                     >
                       <h3 className="text-lg md:text-2xl font-bold mb-4">About Filmore</h3>
                       <p className="text-xs md:text-lg mb-6">
-                        Filmore is your personal guide to the world of cinema. We're passionate about bringing you handpicked recommendations, focusing on quality over quantity. Our goal is to help you discover movies that resonate with you, including lesser-known masterpieces that might have slipped under your radar.
+                        Filmore is your personal guide to the world of cinema. We&apos;re passionate about bringing you handpicked recommendations, focusing on quality over quantity. Our goal is to help you discover movies that resonate with you, including lesser-known masterpieces that might have slipped under your radar.
                       </p>
                       <p className='text-xs md:text-lg'>
                         What sets us apart is our commitment to curating a diverse selection of films, from timeless classics to contemporary hidden gems. Each recommendation comes with insightful commentary to enhance your viewing experience.
@@ -202,7 +202,7 @@ const Home: NextPage = () => {
                         A movie about family grappling with unresolved grief and strained relationships, revealing deep emotional undercurrents.
                       </p>
                       <p className="text-xs md:text-lg mb-4">
-                      &quot;The film's ending is at once profound and simple. There's a wistfulness to this confession, and it rings true... Whether in Japan or France or the United States, the relationships between parents and their adult children are not so very different&quot; - James Berardinelli
+                      &quot;The film&apos;s ending is at once profound and simple. There&apos;s a wistfulness to this confession, and it rings true... Whether in Japan or France or the United States, the relationships between parents and their adult children are not so very different&quot; - James Berardinelli
                       </p>
                     </motion.div>
                   </div>
