@@ -1,7 +1,7 @@
 "use client"
-import { NextPage } from 'next'
-import { motion, useScroll, useTransform } from 'framer-motion'
-import { useRef, useState } from 'react'
+import { NextPage } from 'next';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { useRef, useState } from 'react';
 import Logo from '../utils/logo';
 import { AnimatePresence } from 'framer-motion';
 import Recommendation from "./recommendation";
@@ -14,7 +14,6 @@ const Home: NextPage = () => {
   });
 
   const y = useTransform(scrollYProgress, [0, 1], ['0%', '50%']);
-
   const [isHome, setIsHome] = useState(true); // Toggle between home and recommendation pages
 
   const handleTogglePage = () => {
@@ -59,6 +58,7 @@ const Home: NextPage = () => {
                   transition={{ duration: 1.5 }}
                 >
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent to-filmore-dark"></div>
+                  {/* Using img tag with framer-motion */}
                   <motion.img 
                     src="/bladerunner.jpg" 
                     alt="Cinema"
