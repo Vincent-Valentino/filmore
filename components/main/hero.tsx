@@ -195,7 +195,7 @@ const Home: NextPage = () => {
                       viewport={{ once: true }}
                       className="bg-desert-sand text-filmore-dark p-6 rounded-lg shadow-lg"
                     >
-                      <h3 className="text-lg md:text-2xl font-bold mb-4">This Week's Hidden Gem</h3>
+                      <h3 className="text-lg md:text-2xl font-bold mb-4">This Week&apos;s Hidden Gem</h3>
                       <img src="/stillwalking.jpeg" alt="Hidden Gem Movie" className="w-full h-56 object-cover rounded mb-4" />
                       <h4 className="text-lg md:text-xl font-semibold mb-2">Still Walking <span className='text-xs italic font-light'>by Hirokazu Koreeda</span></h4>
                       <p className="text-xs md:text-lg mb-4">
