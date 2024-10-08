@@ -107,7 +107,7 @@ const Home: NextPage = () => {
                       <div className="p-6 flex-grow">
                         <h3 className="text-white text-2xl font-bold mb-2">Spirited Away</h3>
                         <p className="text-filmore-gray mb-4 flex-grow">
-                          "Movies made for 'everybody' are actually made for nobody in particular..." - Roger Ebert
+                        &quot;Movies made for &apos;everybody&apos; are actually made for nobody in particular...&quot; - Roger Ebert
                         </p>
                       </div>
                       <div className="p-6">
@@ -126,7 +126,7 @@ const Home: NextPage = () => {
                       <div className="p-6 flex-grow">
                         <h3 className="text-white text-2xl font-bold mb-2">The Pianist</h3>
                         <p className="text-filmore-gray mb-4 flex-grow">
-                          "The Pianist is an unmissable, essential film from one of the greatest living directors." - Roger Ebert
+                          &quot;The Pianist is an unmissable, essential film from one of the greatest living directors.&quot; - Roger Ebert
                         </p>
                       </div>
                       <div className="p-6">
@@ -145,7 +145,7 @@ const Home: NextPage = () => {
                       <div className="p-6 flex-grow">
                         <h3 className="text-white text-2xl font-bold mb-2">Shoplifters</h3>
                         <p className="text-filmore-gray mb-4 flex-grow">
-                          "Rich, satisfying, and deeply intelligent film..." - Peter Bradshaw
+                        &quot;Rich, satisfying, and deeply intelligent film...&quot; - Peter Bradshaw
                         </p>
                       </div>
                       <div className="p-6">
@@ -196,7 +196,7 @@ const Home: NextPage = () => {
                         A movie about family grappling with unresolved grief and strained relationships, revealing deep emotional undercurrents.
                       </p>
                       <p className="text-xs md:text-lg mb-4">
-                        "The film's ending is at once profound and simple. There's a wistfulness to this confession, and it rings true... Whether in Japan or France or the United States, the relationships between parents and their adult children are not so very different" - James Berardinelli
+                      &quot;The film's ending is at once profound and simple. There's a wistfulness to this confession, and it rings true... Whether in Japan or France or the United States, the relationships between parents and their adult children are not so very different&quot; - James Berardinelli
                       </p>
                     </motion.div>
                   </div>
