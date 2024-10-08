@@ -15,7 +15,7 @@ const MovieRecommendations: React.FC = () => {
       title: 'Spirited Away (2001)',
       subtitle: 'A Timeless Masterpiece of Imagination',
       background: './r_spiritedaway.jpg', // Make sure the path is correct
-      criticQuote: '&quot;One of the most wondrous films ever made&quot;',
+      criticQuote: '"One of the most wondrous films ever made"',
       critic: 'Roger Ebert',
       plotSummary: "Spirited Away follows 10-year-old Chihiro, who stumbles into a mysterious world after her parents are transformed into pigs...",
       essayContent: `
@@ -28,9 +28,7 @@ const MovieRecommendations: React.FC = () => {
       title: 'Shoplifters (2018)',
       subtitle: 'A Deeply Intelligent and Humanistic Drama',
       background: './shoplifters.jpg',
-      director: 'Hirokazu Kore-eda',
-      studio: 'GAGA Corporation',
-      criticQuote: '&quot;A rich, satisfying, and deeply intelligent film&quot;',
+      criticQuote: '"A rich, satisfying, and deeply intelligent film"',
       critic: 'Peter Bradshaw',
       plotSummary: "Shoplifters tells the story of a ragtag family of thieves living on the margins of society in Tokyo...",
       essayContent: `
@@ -43,12 +41,12 @@ const MovieRecommendations: React.FC = () => {
       title: 'The Pianist (2002)',
       subtitle: 'A Haunting and Emotional Masterpiece',
       background: './thepianist.jpg',
-      director: 'Roman Polanski',
-      studio: 'Focus Features',
-      criticQuote: '&quot;One of the most unmissable films about survival and human resilience&quot;',
+      criticQuote: '"One of the most unmissable films about survival and human resilience"',
       critic: 'Roger Ebert',
       plotSummary: "The Pianist follows the harrowing story of Władysław Szpilman, a Jewish pianist who witnesses the destruction of his world during World War II...",
-      essayContent: `The Pianist is an extraordinary account of survival, not just in terms of physical endurance, but also the survival of the human spirit. Adrien Brody's portrayal of Szpilman is hauntingly authentic.`,
+      essayContent: `
+        The Pianist is an extraordinary account of survival, not just in terms of physical endurance, but also the survival of the human spirit. Adrien Brody's portrayal of Szpilman is hauntingly authentic.
+      `,
       conclusion: "The Pianist is not just a war film; it's a story of hope, resilience, and the enduring power of art."
     },
     {
@@ -56,9 +54,7 @@ const MovieRecommendations: React.FC = () => {
       title: 'Parasite (2019)',
       subtitle: 'A Dark Satire on Class Divide',
       background: './parasite.jpg',
-      director: 'Bong Joon-ho',
-      studio: 'CJ Entertainment',
-      criticQuote: '&quot;A brilliantly crafted dark satire that explores the extremes of social inequality&quot;',
+      criticQuote: '"A brilliantly crafted dark satire that explores the extremes of social inequality"',
       critic: 'Manohla Dargis',
       plotSummary: "Parasite follows the struggling Kim family as they infiltrate the affluent Park family...",
       essayContent: `
@@ -71,9 +67,7 @@ const MovieRecommendations: React.FC = () => {
       title: 'Bicycle Thieves (1948)',
       subtitle: 'A Neorealist Classic That Captures Post-War Italy',
       background: './bicyclethieves.jpg',
-      director: 'Vittorio De Sica',
-      studio: 'Produzioni De Sica',
-      criticQuote: '&quot;A powerful depiction of poverty and the human spirit in post-war Italy&quot;',
+      criticQuote: '"A powerful depiction of poverty and the human spirit in post-war Italy"',
       critic: 'Pauline Kael',
       plotSummary: "Bicycle Thieves tells the story of Antonio Ricci, an unemployed man in post-World War II Rome who finally secures a job that requires a bicycle...",
       essayContent: `
@@ -86,9 +80,7 @@ const MovieRecommendations: React.FC = () => {
       title: 'Oldboy (2003)',
       subtitle: 'A Vengeance Tale of Epic Proportions',
       background: './oldboy.jpg',
-      director: 'Park Chan-wook',
-      studio: 'Show East',
-      criticQuote: '&quot;A brutal, twisted, and masterfully crafted exploration of revenge&quot;',
+      criticQuote: '"A brutal, twisted, and masterfully crafted exploration of revenge"',
       critic: 'Peter Travers',
       plotSummary: "Oldboy tells the story of Oh Dae-su, a man who is imprisoned in a mysterious cell for 15 years...",
       essayContent: `
@@ -101,12 +93,12 @@ const MovieRecommendations: React.FC = () => {
       title: 'Still Walking (2008)',
       subtitle: 'A Quiet Reflection on Family and Loss',
       background: './r_stillwalking.jpeg',
-      director: 'Hirokazu Kore-eda',
-      studio: 'Bandai Visual',
-      criticQuote: '&quot;A beautifully understated film about the dynamics of family and the passage of time&quot;',
+      criticQuote: '"A beautifully understated film about the dynamics of family and the passage of time"',
       critic: 'A.O. Scott',
       plotSummary: "Still Walking tells the story of a family gathering to commemorate the death of a loved one 15 years earlier...",
-      essayContent: `Hirokazu Kore-eda's Still Walking is a meditative reflection on the rhythms of daily life, family relationships, and the quiet moments that often go unnoticed.`,
+      essayContent: `
+        Hirokazu Kore-eda's Still Walking is a meditative reflection on the rhythms of daily life, family relationships, and the quiet moments that often go unnoticed.
+      `,
       conclusion: "Still Walking is a deeply affecting film that gently unfolds the complex layers of family life."
     },
     {
@@ -114,12 +106,12 @@ const MovieRecommendations: React.FC = () => {
       title: 'Taxi Driver (1976)',
       subtitle: 'A Dark Portrait of Urban Alienation',
       background: './taxidriver.jpg',
-      director: 'Martin Scorsese',
-      studio: 'Columbia Pictures',
-      criticQuote: '&quot;One of the greatest films ever made about loneliness and moral decay&quot;',
+      criticQuote: '"One of the greatest films ever made about loneliness and moral decay"',
       critic: 'Roger Ebert',
       plotSummary: "Taxi Driver follows the story of Travis Bickle, a mentally unstable Vietnam War veteran who works as a night-time taxi driver...",
-      essayContent: `Martin Scorsese's Taxi Driver is a haunting exploration of urban alienation and moral decay.`,
+      essayContent: `
+        Martin Scorsese's Taxi Driver is a haunting exploration of urban alienation and moral decay.
+      `,
       conclusion: "Taxi Driver remains one of the most important films in American cinema. Scorsese's masterful direction creates a film that is both a character study and a social commentary."
     },
     {
@@ -127,9 +119,7 @@ const MovieRecommendations: React.FC = () => {
       title: 'Farewell My Concubine (1993)',
       subtitle: 'A Grand Historical Epic of Love and Betrayal',
       background: './farewellmyconcubine.jpg',
-      director: 'Chen Kaige',
-      studio: 'Beijing Film Studio',
-      criticQuote: '&quot;A visually stunning and emotionally powerful exploration of identity, loyalty, and political upheaval&quot;',
+      criticQuote: '"A visually stunning and emotionally powerful exploration of identity, loyalty, and political upheaval"',
       critic: 'Kenneth Turan',
       plotSummary: "Set against the tumultuous backdrop of 20th-century China, Farewell My Concubine tells the complex story of two Peking Opera stars...",
       essayContent: `

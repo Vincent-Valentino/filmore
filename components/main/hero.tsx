@@ -7,22 +7,23 @@ import { AnimatePresence } from 'framer-motion';
 import Recommendation from "./recommendation";
 
 const Home: NextPage = () => {
-  const ref = useRef(null)
+  const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"]
-  })
-  
-  const y = useTransform(scrollYProgress, [0, 1], ['0%', '50%'])
-  
-  const [isHome, setIsHome] = useState(true);  // To toggle between home and other pages
+  });
+
+  const y = useTransform(scrollYProgress, [0, 1], ['0%', '50%']);
+
+  const [isHome, setIsHome] = useState(true); // Toggle between home and recommendation pages
 
   const handleTogglePage = () => {
-    setIsHome(!isHome);  // Toggle page between home and other content
+    setIsHome(!isHome); // Toggle between pages when clicked
   };
 
   return (
     <div ref={ref} className="bg-filmore-dark text-filmore-light min-h-screen">
+      {/* Header */}
       <header className="fixed w-full z-50 bg-filmore-dark bg-opacity-90 shadow-lg">
         <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
           <div className="flex items-center space-x-2">
@@ -38,6 +39,7 @@ const Home: NextPage = () => {
         </nav>
       </header>
 
+      {/* Main Content */}
       <main>
         <AnimatePresence>
           {isHome ? (
@@ -48,6 +50,7 @@ const Home: NextPage = () => {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5 }}
             >
+              {/* Hero Section */}
               <section className="relative h-screen flex items-center justify-center overflow-hidden">
                 <motion.div 
                   className="absolute inset-0 z-0"
@@ -85,17 +88,19 @@ const Home: NextPage = () => {
                     initial={{ y: 50, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.9, duration: 0.8 }}
-                    onClick={handleTogglePage}  // This will toggle the page when clicked
+                    onClick={handleTogglePage}
                   >
                     Explore Now
                   </motion.button>
                 </div>
               </section>
 
+              {/* Featured Films */}
               <section className="py-20 bg-night text-filmore-dark">
                 <div className="container mx-auto px-6">
                   <h2 className="text-filmore-light text-4xl font-bold mb-12 text-center">Featured Films</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {/* Movie Cards */}
                     <motion.div 
                       className="bg-licorice rounded-lg shadow-lg overflow-hidden flex flex-col justify-between"
                       initial={{ opacity: 0, y: 50 }}
@@ -107,7 +112,7 @@ const Home: NextPage = () => {
                       <div className="p-6 flex-grow">
                         <h3 className="text-white text-2xl font-bold mb-2">Spirited Away</h3>
                         <p className="text-filmore-gray mb-4 flex-grow">
-                        &quot;Movies made for &apos;everybody&apos; are actually made for nobody in particular...&quot; - Roger Ebert
+                          &quot;Movies made for &apos;everybody&apos; are actually made for nobody in particular...&quot; - Roger Ebert
                         </p>
                       </div>
                       <div className="p-6">
@@ -145,7 +150,7 @@ const Home: NextPage = () => {
                       <div className="p-6 flex-grow">
                         <h3 className="text-white text-2xl font-bold mb-2">Shoplifters</h3>
                         <p className="text-filmore-gray mb-4 flex-grow">
-                        &quot;Rich, satisfying, and deeply intelligent film...&quot; - Peter Bradshaw
+                          &quot;Rich, satisfying, and deeply intelligent film...&quot; - Peter Bradshaw
                         </p>
                       </div>
                       <div className="p-6">
@@ -156,6 +161,7 @@ const Home: NextPage = () => {
                 </div>
               </section>
 
+              {/* About Section */}
               <section className="py-20 bg-filmore-dark text-filmore-light">
                 <div className="container mx-auto px-6">
                   <motion.h2 
@@ -203,6 +209,7 @@ const Home: NextPage = () => {
                 </div>
               </section>
 
+              {/* Footer */}
               <footer className="bg-filmore-dark text-filmore-light py-8">
                 <div className="container mx-auto px-6 text-center">
                   <p>&copy; 2024 Filmore. All rights reserved.</p>
