@@ -30,7 +30,7 @@ const Home: NextPage = () => {
             <span className="text-md md:text-2xl font-bold">Filmore</span>
           </div>
           <button
-            className="bg-filmore-accent p-1 text-xs md:text-md text-filmore-light md:px-4 md:py-2 rounded-full hover:bg-opacity-80 transition duration-300"
+            className="bg-filmore-accent p-2 text-xs md:text-md text-filmore-light md:px-4 md:py-2 rounded-full hover:bg-opacity-80 transition duration-300"
             onClick={handleTogglePage}
           >
             {isHome ? 'Explore' : 'Back to Home'}
