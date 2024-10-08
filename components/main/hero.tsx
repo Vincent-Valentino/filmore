@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             className="bg-filmore-accent p-1 text-xs md:text-md text-filmore-light md:px-4 md:py-2 rounded-full hover:bg-opacity-80 transition duration-300"
             onClick={handleTogglePage}
           >
-            {isHome ? 'Get Recommendations' : 'Back to Home'}
+            {isHome ? 'Explore' : 'Back to Home'}
           </button>
         </nav>
       </header>
@@ -116,7 +116,7 @@ const Home: NextPage = () => {
                         </p>
                       </div>
                       <div className="p-6">
-                        <button className="text-filmore-accent hover:underline">Read More</button>
+                        <button onClick={handleTogglePage} className="text-filmore-accent hover:underline">Read More</button>
                       </div>
                     </motion.div>
 
@@ -135,7 +135,7 @@ const Home: NextPage = () => {
                         </p>
                       </div>
                       <div className="p-6">
-                        <button className="text-filmore-accent hover:underline">Read More</button>
+                        <button onClick={handleTogglePage} className="text-filmore-accent hover:underline">Read More</button>
                       </div>
                     </motion.div>
 
@@ -154,7 +154,7 @@ const Home: NextPage = () => {
                         </p>
                       </div>
                       <div className="p-6">
-                        <button className="text-filmore-accent hover:underline">Read More</button>
+                        <button onClick={handleTogglePage} className="text-filmore-accent hover:underline">Read More</button>
                       </div>
                     </motion.div>
                   </div>
